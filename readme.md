@@ -48,3 +48,17 @@ This is a simple repo with Typescript + Parcel + React + ReactDOM
     identifying whether this component needs a state or not.
 
 
+# assignment 3rd day
+
+1. Complete the registration form
+2. Create another form which should take inputs:
+    - first name
+    - last name
+    - email
+    - father name
+    - address (textarea)
+    - gender ( radio button )
+    - interest `['cricket', 'volleyball', 'books']` => checkbox
+    - University `['KIU', "QU", "AKU" ]`
+
+    User should be able to sumbit and see informatio on the left side of the page.
