@@ -46,3 +46,5 @@ This is a simple repo with Typescript + Parcel + React + ReactDOM
         - Why we call it stateless? Because it lacks `state` like Class Components
     - When we write component we can decide what type of component should we write by just
     identifying whether this component needs a state or not.
+
+
