@@ -1,3 +1,7 @@
 body {
-    background: #ddd;
+    background: #fefefe;
+}
+
+.flex {
+    display: flex;
 }

@@ -62,3 +62,9 @@ This is a simple repo with Typescript + Parcel + React + ReactDOM
     - University `['KIU', "QU", "AKU" ]`
 
     User should be able to sumbit and see informatio on the left side of the page.
+
+## next class
+    1. Props
+    2. Functions as Props
+    3. !important: Life Cycle Hooks
+    4. What is parent component and what is child Component
