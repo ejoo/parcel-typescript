@@ -68,3 +68,8 @@ This is a simple repo with Typescript + Parcel + React + ReactDOM
     2. Functions as Props
     3. !important: Life Cycle Hooks
     4. What is parent component and what is child Component
+
+## next class / 6/2/2019
+- Life Cycle Hooks Continue
+- SPA (single page application ) SPW -> Single Page Website
+- Pages -> Router

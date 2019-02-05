@@ -33,16 +33,43 @@ class Todos extends React.Component {
     });
   };
 
+  componentDidMount() {
+    // it will run this function when render() is called.
+    // or when something is shown on the screen.
+
+
+  }
+
+  componentWillMount() {
+    // it will run this function before calling render()
+    // or when something is going to be shown on the screen.
+  }
+
+  
+
+  deleteTodo = (id) => {
+    const todos = [...this.state.todos];
+    const newTodos = todos.filter(item => item.id !== id );
+
+    this.setState({
+      todos: newTodos
+    });
+
+    // misbahve => mutable, misbehave nhe => immutable
+    // mishave => objects and array, normal behave: primistive, boolean, string, number
+
+  }
+
   render() {
     return (
       <div>
         <h1>Todos App</h1>
         <hr />
-        <input type="text" id="text" /> <Es />
+        <input type="text" id="text" /> 
         <button onClick={this.createNewTodo}>Add New Todo</button>
         <hr />
         {this.state.todos.map(item => {
-          return <TodoItem text={item.text} done={item.done} id={item.id} />;
+          return <TodoItem onDelete={this.deleteTodo} text={item.text} done={item.done} id={item.id} />;
         })}
       </div>
     );
