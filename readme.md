@@ -73,3 +73,10 @@ This is a simple repo with Typescript + Parcel + React + ReactDOM
 - Life Cycle Hooks Continue
 - SPA (single page application ) SPW -> Single Page Website
 - Pages -> Router
+
+
+## assignment
+
+- Create a new react project from scratch
+- create pages for each endpoint from here (https://jsonplaceholder.typicode.com/)
+- fetch and display results in each page
