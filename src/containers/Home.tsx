@@ -19,7 +19,19 @@ class Home extends React.Component{
             <div>
                 <h1>Home</h1>
                 <h2>{this.props.title}</h2>
-                {this.props.users.join(" - ")}
+                
+                {
+                    this.props.users.map(user => {
+                        return (
+                            <div>
+                                {user.name} <br />
+                                {user.email} <br />
+                                {user.phone} <br />
+                            </div>
+                        )
+                    })
+                }
+
                 <br />
                 {this.props.loading ? "YES" : "NO" }
             <br />
@@ -43,7 +55,7 @@ class Home extends React.Component{
 const mapStateToProps = (state) => {
     return {
         title: state.Home.title,
-        users: state.Home.users,
+        users: state.users,
         loading: state.loading
     }
 };
